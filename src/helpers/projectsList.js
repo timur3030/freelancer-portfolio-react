@@ -1,5 +1,6 @@
 // Project images
 import potolok from "../img/projects/potolok.webp";
+import fashion from "../img/projects/fashion.webp";
 import portfolio from "../img/projects/portfolio.webp";
 import car from "../img/projects/car.webp";
 import calc from "../img/projects/calc.webp";
@@ -13,7 +14,12 @@ const projectsList = [
   {
     title: "Stretch ceilings",
     img: potolok,
-    href: "/potolok/",
+    href: "https://aurora05.ru",
+  },
+  {
+    title: "Fashion",
+    img: fashion,
+    href: "https://timur3030.github.io/fashion-react/",
   },
   {
     title: "Portfolio",

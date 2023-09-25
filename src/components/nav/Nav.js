@@ -1,46 +1,99 @@
-import React from "react";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import BtnDarkMode from "../btnDarkMode/BtnDarkMode";
 import "./nav.css";
-// Social icons
-import sun from "../../icons/sun.svg";
-import moon from "../../icons/moon.svg";
 
 function Nav() {
+  const [active, setActive] = useState(false);
+
+  const normalLink = "nav__link";
+  const activeLink = "nav__link nav__link_active";
+
+  const toTop = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <nav className="nav">
-      <div className="container">
-        <div className="nav__row">
-          <a href="./index.html" className="nav__logo">
-            <span>Freelancer</span> portfolio
-          </a>
-          <ul className="nav__list">
-            <li>
-              <a href="#projects" className="nav__link">
-                Projects
-              </a>
-            </li>
-            <li>
-              <a href="./skills.html" className="nav__link">
-                Skills
-              </a>
-            </li>
-            <li>
-              <a href="./contacts.html" className="nav__link">
-                Contacts
-              </a>
-            </li>
-          </ul>
-          <button className="dark-mode-btn">
-            <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />
-            <img src={moon} alt="Dark mode" className="dark-mode-btn__icon" />
-          </button>
-          <div className="hamburger">
-            <div></div>
-            <div></div>
-            <div></div>
+    <>
+      <nav className="nav">
+        <div className="container">
+          <div className="nav__row">
+            <NavLink
+              to="/"
+              className="nav__logo"
+              onClick={() => {
+                setActive(false);
+                toTop();
+              }}
+            >
+              <span>Freelancer</span> portfolio
+            </NavLink>
+            <ul className={active ? "nav__list active" : "nav__list"}>
+              <li>
+                <NavLink
+                  to="/projects"
+                  className={({ isActive }) =>
+                    isActive ? activeLink : normalLink
+                  }
+                  onClick={() => {
+                    setActive(false);
+                  }}
+                >
+                  Projects
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/skills"
+                  className={({ isActive }) =>
+                    isActive ? activeLink : normalLink
+                  }
+                  onClick={() => {
+                    setActive(false);
+                  }}
+                >
+                  Skills
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/contacts"
+                  className={({ isActive }) =>
+                    isActive ? activeLink : normalLink
+                  }
+                  onClick={() => {
+                    setActive(false);
+                  }}
+                >
+                  Contacts
+                </NavLink>
+              </li>
+            </ul>
+            <BtnDarkMode active={active} />
+            <div
+              className={active ? "hamburger hamburger_active" : "hamburger"}
+              onClick={() => {
+                setActive(!active);
+              }}
+            >
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+      <div
+        className={active ? "overlay active" : "overlay"}
+        onClick={() => {
+          setActive(false);
+        }}
+      ></div>
+    </>
   );
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 import "./promo.css";
+import Animation from "../animation/Animation";
 
 function Promo() {
   return (
@@ -13,14 +14,7 @@ function Promo() {
             <br />a frontend developer
           </h1>
           <p className="promo__text">with passion for learning and creating.</p>
-          <div className="btn">Start animation</div>
-          <div>
-            <div className="anime-element"></div>
-            <div className="anime-element"></div>
-            <div className="anime-element"></div>
-            <div className="anime-element"></div>
-            <div className="anime-element"></div>
-          </div>
+          <Animation />
         </div>
       </div>
     </section>

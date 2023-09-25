@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "../project/Project";
 import { projectsList } from "../../helpers/projectsList";
+import './projects.css'
 
 function Projects() {
   return (

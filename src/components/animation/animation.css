@@ -1,0 +1,132 @@
+.anime-element {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  width: 444px;
+  height: 444px;
+  border: solid 1px var(--anime);
+  border-bottom: none;
+  z-index: 1;
+}
+.anime-element:nth-child(1) {
+  transform: translate(-50%, -50%) rotate(-75deg);
+}
+.anime-element:nth-child(2) {
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+.anime-element:nth-child(3) {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+.anime-element:nth-child(4) {
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+.anime-element:nth-child(5) {
+  transform: translate(-50%, -50%) rotate(-15deg);
+}
+.anime:nth-child(1) {
+  -webkit-animation: anime1 12s ease-in-out infinite 1s;
+  animation: anime1 12s ease-in-out infinite 1s;
+}
+.anime:nth-child(2) {
+  -webkit-animation: anime2 12s ease-in-out infinite 2s;
+  animation: anime2 12s ease-in-out infinite 2s;
+}
+.anime:nth-child(3) {
+  -webkit-animation: anime3 12s ease-in-out infinite 3s;
+  animation: anime3 12s ease-in-out infinite 3s;
+}
+.anime:nth-child(4) {
+  -webkit-animation: anime4 12s ease-in-out infinite 4s;
+  animation: anime4 12s ease-in-out infinite 4s;
+}
+.anime:nth-child(5) {
+  -webkit-animation: anime5 12s ease-in-out infinite 5s;
+  animation: anime5 12s ease-in-out infinite 5s;
+}
+@-webkit-keyframes anime1 {
+  0% {
+    transform: translate(-50%, -50%) rotate(-75deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(885deg);
+  }
+}
+@keyframes anime1 {
+  0% {
+    transform: translate(-50%, -50%) rotate(-75deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(885deg);
+  }
+}
+@-webkit-keyframes anime2 {
+  0% {
+    transform: translate(-50%, -50%) rotate(-60deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(900deg);
+  }
+}
+@keyframes anime2 {
+  0% {
+    transform: translate(-50%, -50%) rotate(-60deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(900deg);
+  }
+}
+@-webkit-keyframes anime3 {
+  0% {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(915deg);
+  }
+}
+@keyframes anime3 {
+  0% {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(915deg);
+  }
+}
+@-webkit-keyframes anime4 {
+  0% {
+    transform: translate(-50%, -50%) rotate(-30deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(930deg);
+  }
+}
+@keyframes anime4 {
+  0% {
+    transform: translate(-50%, -50%) rotate(-30deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(930deg);
+  }
+}
+@-webkit-keyframes anime5 {
+  0% {
+    transform: translate(-50%, -50%) rotate(-15deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(945deg);
+  }
+}
+@keyframes anime5 {
+  0% {
+    transform: translate(-50%, -50%) rotate(-15deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(945deg);
+  }
+}
+
+@media (max-width: 391px) {
+  .anime-element {
+    width: 320px;
+    height: 320px;
+  }
+}
