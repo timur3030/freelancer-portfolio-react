@@ -21,7 +21,7 @@ function Footer() {
             })}
           </ul>
           <div className="footer__copyright">
-            <p>© 2023 timur-store.ru</p>
+            <p>© 2023 timur-biker.ru</p>
           </div>
         </div>
       </div>

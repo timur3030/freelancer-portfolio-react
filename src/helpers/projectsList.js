@@ -24,7 +24,7 @@ const projectsList = [
   {
     title: "Portfolio",
     img: portfolio,
-    href: "/portfolio/",
+    href: "https://timur3030.github.io/portfolio/",
   },
   {
     title: "Car dealership",
@@ -34,7 +34,7 @@ const projectsList = [
   {
     title: "Calc",
     img: calc,
-    href: "/calc/",
+    href: "https://timur3030.github.io/calculator/",
   },
   {
     title: "Furniture",
