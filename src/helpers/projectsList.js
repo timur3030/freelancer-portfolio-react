@@ -24,12 +24,12 @@ const projectsList = [
   {
     title: "Portfolio",
     img: portfolio,
-    href: "https://timur3030.github.io/portfolio/",
+    href: "https://timur3030.github.io/portfolio-site/",
   },
   {
     title: "Car dealership",
     img: car,
-    href: "/car/",
+    href: "https://timur3030.github.io/car-site/",
   },
   {
     title: "Calc",
@@ -39,27 +39,27 @@ const projectsList = [
   {
     title: "Furniture",
     img: furniture,
-    href: "/furniture/",
+    href: "https://timur3030.github.io/furniture-site/",
   },
   {
     title: "Cakes",
     img: cakes,
-    href: "/cakes/",
+    href: "https://timur3030.github.io/cakes-site/",
   },
   {
     title: "Restaurant",
     img: restaurant,
-    href: "/restaurant/",
+    href: "https://timur3030.github.io/restaurant-site/",
   },
   {
     title: "Pulse",
     img: pulse,
-    href: "/pulse/",
+    href: "https://timur3030.github.io/pulse-site/",
   },
   {
     title: "Uber",
     img: uber,
-    href: "/uber/",
+    href: "https://timur3030.github.io/uber-site/",
   },
 ];
 
