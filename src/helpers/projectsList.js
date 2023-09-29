@@ -1,6 +1,7 @@
 // Project images
 import potolok from "../img/projects/potolok.webp";
 import fashion from "../img/projects/fashion.webp";
+import tasks from "../img/projects/tasks.webp";
 import portfolio from "../img/projects/portfolio.webp";
 import car from "../img/projects/car.webp";
 import calc from "../img/projects/calc.webp";
@@ -25,6 +26,11 @@ const projectsList = [
     title: "Portfolio",
     img: portfolio,
     href: "https://timur3030.github.io/portfolio-site/",
+  },
+  {
+    title: "Tasks list",
+    img: tasks,
+    href: "https://timur3030.github.io/tasks-list/",
   },
   {
     title: "Car dealership",
