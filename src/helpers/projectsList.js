@@ -30,7 +30,7 @@ const projectsList = [
   {
     title: "Tasks list",
     img: tasks,
-    href: "https://timur3030.github.io/tasks-list/",
+    href: "https://timur3030.github.io/tasks-list-react/",
   },
   {
     title: "Car dealership",
