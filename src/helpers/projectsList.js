@@ -81,7 +81,7 @@ const projectsList = [
   },
   {
     title: "Uber",
-    subtitle: "(HTML, CSS,JavaScript)",
+    subtitle: "(HTML, CSS, JavaScript)",
     img: uber,
     href: "https://timur3030.github.io/uber-site/",
   },
