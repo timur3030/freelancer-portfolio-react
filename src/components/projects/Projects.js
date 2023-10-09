@@ -13,6 +13,7 @@ function Projects() {
             return (
               <Project
                 title={project.title}
+                subtitle={project.subtitle}
                 img={project.img}
                 href={project.href}
                 key={index}

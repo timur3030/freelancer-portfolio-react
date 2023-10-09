@@ -238,6 +238,9 @@ legend {
   .projects__item-title {
     font-size: 22px;
   }
+  .projects__item-subtitle {
+    font-size: 16px;
+  }
   .section {
     padding: 105px 0 40px;
   }

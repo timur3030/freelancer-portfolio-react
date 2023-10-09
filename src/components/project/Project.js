@@ -6,6 +6,7 @@ function Project(props) {
       <a href={props.href} target="_blank" rel="noreferrer">
         <img src={props.img} alt={props.title} className="projects__img" />
         <h3 className="projects__item-title">{props.title}</h3>
+        <h4 className="projects__item-subtitle">{props.subtitle}</h4>
       </a>
     </li>
   );

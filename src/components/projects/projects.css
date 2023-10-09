@@ -31,9 +31,15 @@
   transform: scale(1.05);
 }
 .projects__item-title {
-  padding: 15px 20px 25px;
+  padding: 15px 20px 0;
   font-size: 24px;
   font-weight: 700;
+  line-height: 130%;
+}
+.projects__item-subtitle {
+  padding: 5px 20px 25px;
+  font-size: 18px;
+  font-weight: 500;
   line-height: 130%;
 }
 .projects__item a {
