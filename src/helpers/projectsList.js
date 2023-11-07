@@ -1,5 +1,6 @@
 // Project images
 import potolok from "../img/projects/potolok.webp";
+import travel from "../img/projects/travel.webp";
 import fashion from "../img/projects/fashion.webp";
 import tasks from "../img/projects/tasks.webp";
 import quiz from "../img/projects/quiz.webp";
@@ -20,10 +21,10 @@ const projectsList = [
     href: "https://aurora05.ru",
   },
   {
-    title: "Fashion",
-    subtitle: "(React, JavaScript)",
-    img: fashion,
-    href: "https://timur3030.github.io/fashion-react/",
+    title: "Travel",
+    subtitle: "(JavaScript, HTML, CSS)",
+    img: travel,
+    href: "https://timur3030.github.io/travel-site/",
   },
   {
     title: "Portfolio",
@@ -50,6 +51,12 @@ const projectsList = [
     href: "https://timur3030.github.io/calculator/",
   },
   {
+    title: "Fashion",
+    subtitle: "(React, JavaScript)",
+    img: fashion,
+    href: "https://timur3030.github.io/fashion-react/",
+  },
+  {
     title: "Car dealership",
     subtitle: "(HTML, CSS, JavaScript)",
     img: car,
@@ -62,16 +69,16 @@ const projectsList = [
     href: "https://timur3030.github.io/furniture-site/",
   },
   {
-    title: "Cakes",
-    subtitle: "(HTML, CSS, JavaScript)",
-    img: cakes,
-    href: "https://timur3030.github.io/cakes-site/",
-  },
-  {
     title: "Restaurant",
     subtitle: "(HTML, CSS, JavaScript)",
     img: restaurant,
     href: "https://timur3030.github.io/restaurant-site/",
+  },
+  {
+    title: "Cakes",
+    subtitle: "(HTML, CSS, JavaScript)",
+    img: cakes,
+    href: "https://timur3030.github.io/cakes-site/",
   },
   {
     title: "Pulse",
