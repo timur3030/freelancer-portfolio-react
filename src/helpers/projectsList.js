@@ -1,4 +1,5 @@
 // Project images
+import coffee from "../img/projects/coffee.webp";
 import potolok from "../img/projects/potolok.webp";
 import travel from "../img/projects/travel.webp";
 import fashion from "../img/projects/fashion.webp";
@@ -15,6 +16,12 @@ import uber from "../img/projects/uber.webp";
 
 const projectsList = [
   {
+    title: "Coffee house",
+    subtitle: "(HTML, CSS, JavaScript)",
+    img: coffee,
+    href: "https://timur3030.github.io/coffee/index.html",
+  },
+  {
     title: "Stretch ceilings",
     subtitle: "(HTML, CSS, JavaScript)",
     img: potolok,
@@ -25,12 +32,6 @@ const projectsList = [
     subtitle: "(JavaScript, HTML, CSS)",
     img: travel,
     href: "https://timur3030.github.io/travel-site/",
-  },
-  {
-    title: "Portfolio",
-    subtitle: "(HTML, CSS, JavaScript)",
-    img: portfolio,
-    href: "https://timur3030.github.io/portfolio-site/",
   },
   {
     title: "Tasks list",
@@ -55,6 +56,12 @@ const projectsList = [
     subtitle: "(React, JavaScript)",
     img: fashion,
     href: "https://timur3030.github.io/fashion-react/",
+  },
+  {
+    title: "Portfolio",
+    subtitle: "(HTML, CSS, JavaScript)",
+    img: portfolio,
+    href: "https://timur3030.github.io/portfolio-site/",
   },
   {
     title: "Car dealership",
