@@ -2,6 +2,8 @@
 import coffee from "../img/projects/coffee.webp";
 import potolok from "../img/projects/potolok.webp";
 import travel from "../img/projects/travel.webp";
+import hangman from "../img/projects/hangman.webp";
+import nonograms from "../img/projects/nonograms.webp";
 import fashion from "../img/projects/fashion.webp";
 import tasks from "../img/projects/tasks.webp";
 import quiz from "../img/projects/quiz.webp";
@@ -22,10 +24,22 @@ const projectsList = [
     href: "https://timur3030.github.io/coffee/index.html",
   },
   {
+    title: "Hangman game",
+    subtitle: "(JavaScript)",
+    img: hangman,
+    href: "https://rolling-scopes-school.github.io/timur3030-JSFE2023Q4/hangman/index.html",
+  },
+  {
+    title: "Nonograms game",
+    subtitle: "(JavaScript)",
+    img: nonograms,
+    href: "https://rolling-scopes-school.github.io/timur3030-JSFE2023Q4/nonograms/index.html",
+  },
+  {
     title: "Stretch ceilings",
     subtitle: "(HTML, CSS, JavaScript)",
     img: potolok,
-    href: "https://aurora05.ru",
+    href: "https://timur3030.github.io/aurora-new-site/dist/",
   },
   {
     title: "Travel",
